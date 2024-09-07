@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 40px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+    text-align: center;
+    padding: 36px 0 143px;
+}
+
+section {
+    padding: 194px 0;
+}
+
+.top-line {
+    padding: 32px 0;
+    background-color: #cb4f0f;
+}
+
+.wrapper-top {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.logo a {
+    column-gap: 30px;
+}
+
+.parent-text_logo {
+    display: block;
+}
+
+.parent-text_logo span {
+    display: block;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+}
+
+.parent-text_logo span:first-child {
+    font-size: 30px;
+}
+
+.parent-text_logo span:nth-child(2) {
+    font-size: 42px;
+}
+
+.parent-text_logo span:last-child {
+    font-size: 54px;
+}
+
+.navigation ul {
+    list-style: none;
+    column-gap: 70px;
+}
+
+.navigation a {
+    font-size: 24px;
+    color: #000;
+    font-weight: 400;
+    font-family: "Roboto";
+    transition: all.5s ease;
+}
+
+.navigation a:hover {
+    color: #fff;
+}
+
+.main-container {
+    justify-content: center;
+
+}
+
+.main-container {
+    background-color: #5e91fe;
+    min-height: 90vh;
+}
+
+.main-text {
+    max-width: 45vw;
+    color: #000;
+    text-align: center;
+    font-weight: 400;
+}
+
+.main-text h1 {
+    font-size: 34px;
+    color: #000;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+    padding-bottom: 81px;
+}
+
+.main-text p {
+    font-size: 25px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.main-img img {
+    max-width: 45vw;
+}
+
+.block {
+    width: 100%;
+}
+
+.block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: top;
+}
+
+.text-container p {
+    margin-bottom: 59px;
+    font-size: 40px;
+    color: #000;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.price {
+    opacity: 0.902;
+    font-size: 72px;
+    color: #000;
+    font-family: "Press Start 2P";
+}
+
+.text-container a {
+    display: inline-block;
+    width: 100%;
+    max-width: 343px;
+    padding: 27px 0;
+    font-size: 24px;
+    color: #000;
+    font-weight: 400;
+    font-family: "Press Start 2P";
+    background-color: #cb4f0f;
+    text-align: center;
+}
+
+.games-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+    background: #000 url(../img/games1.png) no-repeat center/cover;
+}
+
+.games-container h2 {
+    font-size: 50px;
+    max-width: 40vw;
+    color: #fff;
+}
+
